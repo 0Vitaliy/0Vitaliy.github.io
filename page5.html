@@ -61,48 +61,66 @@
       </form>
 
       <div class="contacts">
-          <div>
-              <img src="">
-              <div>
+          <div class="contacts_block">
+              <img src="img/placeholder.svg" style="width: 50px;height: 50px">
+
                   <p>
-                      
+                      Офис в Украине: Украина, 03062, г. Киев, ул. Коцюбинского, 14
                   </p>
 
-              </div>
+
+          </div>
+          <div class="contacts_block">
+             <img src="img/phone-call.svg" style="width: 50px;height: 50px">
+
+                  <p>
+                      <span>+380(50)7068143</span>
+                      <span>+380(67)6562572</span>
+                  </p>
+
+
+          </div>
+          <div class="contacts_block">
+              <img src="img/contacts_email.svg" style="width: 50px;height: 50px">
+
+                  <p>MAILING ADDRESS<span>support@gmail.com.ua</span>
+                  </p>
+
+
           </div>
       </div>
 
-    <!--<div class="contacts">-->
-      <!--<span>Офис в Украине: Украина, 03062, г. Киев, ул. Коцюбинского, 14</span>-->
-      <!--<span>+380(50)7068143</span>-->
-      <!--<span>+380(67)6562572</span>-->
-      <!--<span>support@stamax.com.ua</span>-->
-    <!--</div>-->
+
   </div>
 </div>
 </section>
 
+<div id="map" >
 
-
+</div>
 
 
 
 
     <footer>
-      <div>
-        <h2>Контакты</h2>
-        <div>
-          <span><img src="img/home.svg"/>Украина</span>
-          <span><img src="img/phone.svg"/>+380(67)6562572</span>
-          <span><img src="img/phone.svg"/>+380(67)6562572</span>
-          <span><img src="img/envelope.svg"/>support@stamax.com.ua</span>
+      <div class="wrapper">
+        <div class="footer_contacts">
+            <p><img src="img/placeholder.svg"/><span>Украина, г. Киев, ул. Коцюбинского, 14</span></p>
+            <p><img src="img/phone-call.svg"/><span>+380(67)6562572 <br>+380(67)6562572</span></p>
+            <p><img src="img/contacts_email.svg"/><span>support@stamax.com.ua</span></p>
         </div>
         <div class="prava">
           &copy 2018 IT Prostir.Все права защищены
         </div>
-     </div>
+      </div>
     </footer>
 
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDMvRailJqJzzNjrKrfFO9jqTWfcO-e4u0&callback=initMap"
+            async defer>
+         </script>
+<script src="js/script_map.js">
+
+    </script>
 
 <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.js"></script>
     <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>

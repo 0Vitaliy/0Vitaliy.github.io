@@ -37,3 +37,6 @@ $('.your-class').slick({
   cssEase: 'linear'
 
 });
+
+
+
